@@ -3,6 +3,7 @@
 7 types : String , Number , Boolean, null, undefined, Symbol, BigInt */
 
 const score  = 100;
+log
 const score2 = 25.5;
 const isLoggedIn = false
 const outsideTemp = null
