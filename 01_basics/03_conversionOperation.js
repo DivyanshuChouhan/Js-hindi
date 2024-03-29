@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+let score = 22
+console.log(typeof score)
+=======
 let score = 22
 ///console.log(typeof score);//output is number
 ///console.log(typeof(score));//output is number
@@ -49,4 +53,5 @@ let str3 = str1 + str2
 // console.log(1+"2")
 // console.log("1"+2+2)//output 122
 // console.log(1+2+"2")//output 32
+
 
