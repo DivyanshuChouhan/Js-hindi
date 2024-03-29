@@ -1,7 +1,6 @@
 const name = "Divyanshu"
 const age = 22
 
-
 // console.log(name + age);//outdated method
 console.log(`My name is ${name} and my age is ${age}`);//known as string interpolation
 
