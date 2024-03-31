@@ -60,3 +60,13 @@ console.log(Object.keys(tinderUser));// all keys of object using this operation 
 console.log(Object.values(tinderUser));// all values of object using this operatio
 console.log(Object.entries(tinderUser));// all the key value pairs created in form of array
 console.log(tinderUser.hasOwnProperty('isloggedin'));// to check whether the given value present in the object  
+
+
+const course = {
+    coursename: "javascript",
+    price: 999,
+    courseinstructor: "divyanshu"
+}
+
+const {courseinstructor: instructer} = course //object de-structuing
+    console.log(instructer)
