@@ -1,8 +1,7 @@
-<<<<<<< HEAD
+
 let score = 22
 console.log(typeof score)
-=======
-let score = 22
+
 ///console.log(typeof score);//output is number
 ///console.log(typeof(score));//output is number
 
@@ -40,7 +39,7 @@ let negValue= -value
 // console.log(2-2);
 // console.log(2*2);
 // console.log(2/2);
-// console.log(2**3);//2 to the power 2
+// console.log(2**3);//2 to the power 3
 // console.log(2%3);
 
 let str1 = "divyanshu"
