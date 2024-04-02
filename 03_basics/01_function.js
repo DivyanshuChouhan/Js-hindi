@@ -1,7 +1,13 @@
+
+let name = function name(params) {
+    console.log("Divaysnhu");
+}
+
 function sayMyName(){ //Function syntax
     console.log("divyanshu");
 }
 
+console.log(name);
 //sayMyName() //calling function 
 
 // function addnum(num1,num2){//num1 and num2 are parameters
