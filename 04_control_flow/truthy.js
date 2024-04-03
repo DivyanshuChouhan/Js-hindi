@@ -22,3 +22,14 @@ const obj = {}
 if(Object.keys(obj).length === 0){
     console.log("Object is empty");
 }
+
+//**Interview ** false == 0 => true ,  false == '' => true,  0 =='' => true
+
+//Nullish Coalescing Operator (??): null undefined **used to do safety check of null value
+
+let val1 = null??10
+console.log(val1);
+
+//Terniary Operator
+const tea = 10
+tea >= 5 ? console.log("Tea is expensive") : console.log("Tea is cheap");
