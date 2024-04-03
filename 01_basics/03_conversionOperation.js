@@ -15,7 +15,7 @@ let valueInNumber = Number(marks);//convert datatype from string to number
 ///console.log(valueInNumber);//Output is NaN(Not a number) because as we can see value of marks is "55abc"
 
 //If we convert "33" it become 33 
-//If we convert "55abc" it become NaN
+//If we convert "55abc" it become NaN because of mixed datatypes
 //If we convert any boolean value such as true it become 1 and false become 0
 
 //Other conversions
@@ -44,11 +44,11 @@ let negValue= -value
 
 let str1 = "divyanshu"
 let str2 = " chouhan"
-let str3 = str1 + str2
+let str3 = str1 + str2//Concatenation
 //console.log(str3)
 
-// console.log(1 + 2)
-// console.log("1"+ 2)
+// console.log(1 + 2)//Output 3
+// console.log("1"+ 2)//Output 12
 // console.log(1+"2")
 // console.log("1"+2+2)//output 122
 // console.log(1+2+"2")//output 32
