@@ -30,11 +30,11 @@ const newArr = myArr.join()//it change type of array(Adds all the elements of an
 
 console.log("A",myArr);
 const nya1 = myArr.slice(1,3)//last index value not included only 1,2 are included SLICE DO NOT MANIPULATE ORIGNAL ARRAY
-console.log(nya1);
-console.log(myArr);
+console.log(nya1);//Output =[2, 3]
+console.log(myArr);//Output = [1, 2, 3, 4, 5]
 
 const nya2 = myArr.splice(1,3)//last index value is also included 1,2,3 are included but also SPLICE MANIPULATE ORIGIANAL ARRAY
-console.log(nya2);
+console.log(nya2);//Output = [2, 3, 4]
 console.log(myArr);//but in splice the given values are spliced but after that only remaining values left in this case only 1,5 left when we splice(1,3)
 
 
