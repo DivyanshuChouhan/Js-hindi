@@ -9,7 +9,7 @@ let marks = "55abc"
 ///console.log(typeof marks);//output is string
 
 
-let valueInNumber = Number(marks);
+let valueInNumber = Number(marks);//convert datatype from string to number
 ///console.log(typeof valueInNumber);//Output is number
 
 ///console.log(valueInNumber);//Output is NaN(Not a number) because as we can see value of marks is "55abc"
